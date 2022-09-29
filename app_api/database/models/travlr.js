@@ -12,4 +12,4 @@ const tripSchema = new mongoose.Schema({
     description: {type: String, required: true}
 });
 
-mongoose.model('trips', tripSchema, 'trips');
+mongoose.model('trips', tripSchema);
